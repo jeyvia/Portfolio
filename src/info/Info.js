@@ -4,10 +4,12 @@ import orbital2 from "../img/orbital2.png"
 import orbital3 from "../img/orbital3.png"
 import orbital4 from "../img/orbital4.png"
 import orbital5 from "../img/orbital5.png"
-import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
+import haindle1 from "../img/haindle1.png"
+import haindle2 from "../img/haindle2.png"
+import enterprize1 from "../img/enterPRIZE1.png"
+import enterprize2 from "../img/enterPRIZE2.png"
+import moneygowhere1 from "../img/moneygowhere1.png"
+import moneygowhere2 from "../img/moneygowhere2.png"
 import { FaJs } from "react-icons/fa"
 import { FaReact } from "react-icons/fa"
 import { FaGithub } from "react-icons/fa"
@@ -128,17 +130,17 @@ export const info = {
         {
             title: "hAIndle",
             source: "https://github.com/Kermit-and-Friends",
-            image: [mock1, mock2]
+            image: [haindle1, haindle2]
         },
         {
             title: "MoneyGoWhere",
             source: "https://github.com/AY2223S1-CS2113T-W11-1/tp",
-            image: [mock3]
+            image: [moneygowhere1, moneygowhere2]
         },
         {
             title: "enterPRIZE",
             source: "https://github.com/feliciaivane/enterPRIZE",
-            image: [mock4]
+            image: [enterprize1, enterprize2]
         }
     ]
 }

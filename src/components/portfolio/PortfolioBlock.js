@@ -8,10 +8,10 @@ function PortfolioBlock(props) {
    const {image, live, source, title} = props;
    return (
       <Box display={'flex'} flexDirection={'column'} justifyContent={'center'} alignItems={'center'}>
-         <Carousel width='80%' interval='5000' autoPlay='true' infiniteLoop={true} showStatus={false} showThumbs={false}>
+         <Carousel width='100%' interval='5000' autoPlay='true' infiniteLoop={true} showStatus={false} showThumbs={false}>
                 {image.map((images) => (
                    <div>
-                      <img src={images} />
+                      <img src={images} alt="mockup"/>
                    </div>
                 ))}
             </Carousel>
