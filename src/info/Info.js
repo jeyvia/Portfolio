@@ -10,7 +10,6 @@ import enterprize1 from "../img/enterPRIZE1.png"
 import enterprize2 from "../img/enterPRIZE2.png"
 import moneygowhere1 from "../img/moneygowhere1.png"
 import moneygowhere2 from "../img/moneygowhere2.png"
-import { FaJs } from "react-icons/fa"
 import { FaReact } from "react-icons/fa"
 import { FaGithub } from "react-icons/fa"
 import { FaPython } from "react-icons/fa"
@@ -18,6 +17,9 @@ import { FaJava } from "react-icons/fa"
 import { FaNodeJs } from "react-icons/fa"
 import { DiMongodb } from "react-icons/di"
 import { SiCplusplus } from "react-icons/si"
+import { SiFlutter } from "react-icons/si"
+import { SiHtml5 } from "react-icons/si"
+import { SiCss3 } from "react-icons/si"
 
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 
@@ -61,10 +63,6 @@ export const info = {
         {
             proficientWith: [
                 {
-                    name: 'javascript',
-                    icon: <FaJs></FaJs>
-                }, 
-                {
                     name: 'react',
                     icon: <FaReact></FaReact>
                 }, 
@@ -77,7 +75,7 @@ export const info = {
                     icon: <FaPython></FaPython>
                 },
                 {
-                    name: 'Java',
+                    name: 'java',
                     icon: <FaJava></FaJava>
                 },
                 {
@@ -96,7 +94,19 @@ export const info = {
                 {
                     name: 'MongoDB',
                     icon: <DiMongodb></DiMongodb>
-                } 
+                },
+                {
+                    name: 'flutter',
+                    icon: <SiFlutter></SiFlutter>
+                },
+                {
+                    name: 'hmtl',
+                    icon: <SiHtml5></SiHtml5>
+                },
+                {
+                    name: 'css',
+                    icon: <SiCss3></SiCss3>
+                }
             ]
         }
     ,
