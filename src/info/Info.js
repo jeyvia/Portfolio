@@ -100,7 +100,7 @@ export const info = {
                     icon: <SiFlutter></SiFlutter>
                 },
                 {
-                    name: 'hmtl',
+                    name: 'html',
                     icon: <SiHtml5></SiHtml5>
                 },
                 {
